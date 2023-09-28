@@ -15,8 +15,15 @@
         <activity
             android:name=".Siniestros"
             android:exported="false">
+        </activity>
 
-
+        <activity
+            android:name=".Mecanico"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
 
         <activity
