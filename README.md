@@ -2,6 +2,8 @@
 
 En este proyecto se desarrollará la aplicación *Service del Automotor* para dispositivos móviles. 
 
+repositorio anterior https://github.com/TamiSorsaburu/App-Movile
+
 #
 El proyecto consiste en una aplicación móvil para Android vinculada a una red de taller mecánico.
 Esta aplicación le permitirá a los usuarios consultar los diversos servicios que el taller brinda, adquirir turnos y consultar presupuesto.
