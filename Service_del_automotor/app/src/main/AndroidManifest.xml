@@ -13,12 +13,11 @@
         android:theme="@style/Theme.Service_del_automotor"
         tools:targetApi="31">
         <activity
+            android:name=".IniciarSesion"
+            android:exported="false" />
+        <activity
             android:name=".Siniestros"
-            android:exported="false">
-
-
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
