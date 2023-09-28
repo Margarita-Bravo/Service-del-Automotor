@@ -76,7 +76,6 @@
         android:layout_height="50dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/btn_color"
-
         android:onClick="buttonLogin"
         android:text="@string/btn_login"
         android:textColor="@color/blanco"
@@ -86,4 +85,35 @@
         app:layout_constraintStart_toStartOf="@+id/imageLogo"
         app:layout_constraintTop_toBottomOf="@+id/textAutomotor" />
 
+    <TextView
+        android:id="@+id/textCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/text_cuenta"
+        android:textColor="@color/blanco"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageLogo"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="textRegister"
+        android:text="@string/text_register"
+        android:textColor="@color/secundario"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageLogo"
+        app:layout_constraintStart_toEndOf="@+id/textCuenta"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        tools:ignore="TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
