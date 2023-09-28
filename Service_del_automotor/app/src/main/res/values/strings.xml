@@ -30,4 +30,14 @@
     <string name="btnAgregar">Agregar</string>
     <string name="btnEliminar">Eliminar</string>
     <string name="detalleUsuarioTitulo">Información Personal</string>
+
+    //presentación
+    <string name="text_service">SERVICE</string>
+    <string name="text_del">DEL</string>
+    <string name="text_automotor">AUTOMOTOR</string>
+    <string name="text_cuenta">No tienes una cuenta?</string>
+    <string name="text_register">Regístrate</string>
+    <string name="btn_login">INICIAR SESIÓN</string>
+    <string name="text_recover">Recuperar</string>
+
 </resources>
