@@ -22,4 +22,12 @@
     <string name="opcion_ambulancia">Ambulancia</string>
     <string name="opcion_bomberos">Bomberos</string>
     <string name="opcion_defensa">Defensa civíl</string>
+
+    //listado-usuarios
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="btnVer">Ver</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="detalleUsuarioTitulo">Información Personal</string>
 </resources>
