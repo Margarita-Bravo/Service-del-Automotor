@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ConexionSQLiteHelper conn=new ConexionSQLiteHelper(this,"bd_cliente",null,1);
+        ConexionSQLiteHelper conn=new ConexionSQLiteHelper(this,"servicioAutomotor1",null,1);
 
         SQLiteDatabase db = conn.getWritableDatabase();
     }

@@ -44,12 +44,6 @@
                 android:value=".MainActivity" />
         </activity>
 
-
-        <activity
-            android:name=".Map"
-            android:exported="false">
-
-        </activity>
         <activity
             android:name=".ListadoUsuarios"
             android:exported="false"></activity>
