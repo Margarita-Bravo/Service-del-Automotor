@@ -36,7 +36,7 @@ public class Map extends AppCompatActivity implements OnMapReadyCallback, Google
         this.mMap.setOnMapClickListener(this);
         this.mMap.setOnMapLongClickListener(this);
 
-        LatLng argentina = new LatLng(-37.0234027,-65.3161785);
+        LatLng argentina = new LatLng(-27.483824,-58.8401735);
         mMap.addMarker(new MarkerOptions().position(argentina).title("Argentina"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(argentina));
     }
