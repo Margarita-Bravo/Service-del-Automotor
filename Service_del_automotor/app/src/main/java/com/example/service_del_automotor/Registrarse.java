@@ -14,10 +14,10 @@ public class Registrarse extends AppCompatActivity {
         setContentView(R.layout.activity_registrarse);
     }
 
-    public void buttonRegister(View view) {
-        Intent intent = new Intent(this, Dashboard.class);
-        startActivity(intent);
-    }
+    // public void buttonRegister(View view) {
+     //   Intent intent = new Intent(this, Dashboard.class);
+     //   startActivity(intent);
+   // }
 
     public void textLogin(View view) {
         Intent intent = new Intent(this, IniciarSesion.class);
