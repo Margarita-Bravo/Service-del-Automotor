@@ -2,7 +2,7 @@ package com.example.service_del_automotor.entidades;
 
 public class Cliente {
 
-    private Integer id;
+    private Integer idCliente;
     private String nombre;
     private String apellido;
     private String telefono;
@@ -11,6 +11,7 @@ public class Cliente {
     private Integer altura;
     private String localidad;
 
+    /*
     public Cliente(Integer id, String nombre, String telefono) {
         this.id = id;
         this.nombre = nombre;
@@ -91,4 +92,6 @@ public class Cliente {
     public void setLocalidad(String localidad) {
         this.localidad = localidad;
     }
+
+     */
 }

@@ -134,6 +134,7 @@
             android:layout_marginTop="52dp"
             android:background="@drawable/btn_color"
             android:contentDescription="@string/text_description_btnLogin"
+
             android:onClick="buttonRegister"
             android:text="@string/btn_register"
             android:textColor="@color/blanco"
